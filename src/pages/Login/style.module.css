@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input {
+  display: block;
+}
+.login_acc {
+  background-color: #fe5722;
+}
+.login {
+  width: 1040px;
+  height: auto;
+  margin: 0 auto;
+}
+.login_page {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.login_left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login_left img {
+  width: 250px;
+  height: 250px;
+}
+.login_left h3 {
+  font-size: 50px;
+  margin: 0;
+  color: white;
+  font-weight: 300;
+}
+.login_left span {
+  color: white;
+  font-size: 25px;
+  padding-top: 10px;
+}
+.login_left span:first-of-type {
+  margin-top: 10px;
+}
+.login_right {
+  background-color: white;
+  width: 400px;
+  padding: 0 30px;
+}
+.login_right_text {
+  height: 103px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.login_right_text img {
+  width: 50px;
+  height: 50px;
+}
+.login_right_text span:first-of-type {
+  font-size: 22px;
+}
+.login_right_text span:nth-of-type(2) {
+  font-size: 16px;
+  color: #ffc500;
+  background-color: #fefaec;
+  font-weight: 800;
+  padding: 15px 10px;
+}
+.login_right_button input {
+  padding: 10px;
+  width: 100%;
+  margin: 10px 0;
+}
+.login_right_button input:nth-of-type(2) {
+  margin-top: 30px;
+}
+.button_login {
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+  padding: 10px;
+  background-color: rgb(254, 87, 34, 0.8);
+  color: white;
+  border: none;
+}
+.login_right_button_text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.line_text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.line_text span {
+  color: rgb(128, 128, 128, 0.4);
+  font-size: 14px;
+  padding: 0 15px;
+}
+.line_text::before,
+.line_text::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid gray;
+}
+.login_right_button_socials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.login_right_button_socials img {
+  width: 25px;
+  height: 25px;
+}
+.login_right_button_socials button {
+  width: 165px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background-color: white;
+  border: 1px rgb(128, 128, 128, 0.3) solid;
+  padding: 5px 0;
+  cursor: pointer;
+}
+.login_right_button_signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 25px 0;
+}
+.login_right_button_signup p {
+  color: gray;
+}
+.login_right_button_signup p span {
+  color: #fe5722;
+  cursor: pointer;
+}
